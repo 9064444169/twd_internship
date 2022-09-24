@@ -1,0 +1,44 @@
+.web {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;   
+}
+
+.web-option {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.web-option a {
+    text-decoration: none;
+    color:#2d3748;
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.web-option a:hover{
+    color:red;
+    transition: 0.3s ease-in;
+    background-color: #efecf1;
+    transition: 0.4s ease-in;
+}
+
+.web-option:last-child {
+    margin-right: 0px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 400;
+    color: #b9becc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}

@@ -1,0 +1,109 @@
+.instructor__card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.instructor__card:hover{
+    transform: scale(1.1);
+}
+
+.instructor__card>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-radius: 10px; */
+    border-radius: 50%;
+    margin-left: 10rem;
+}
+
+.instructor__heading {
+    font-weight: 600;
+    margin-left: 5px;
+    color: rgb(81, 78, 78);
+    margin-top: 10px;
+}
+
+.instructor__heading:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.instructor__designation{
+    font-size: 15px;
+    margin-left: 5px;
+    color: rgb(136, 133, 133);
+}
+
+.instructor__info {
+    margin-left: 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.instructor__info>p {
+    font-size: 10px;
+    color: gray;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:900px) {
+    .instructor__card {
+        display: flex;
+        padding: 20px;
+        width: 90%;
+        max-height: 700px;
+        min-width: 100px;
+        background-color: white;
+        z-index: 1;
+        height: 75vh;
+        border-radius: 15px;
+    }
+    /* .instructor__card:hover{
+    
+    } */
+
+    .instructor__card>img {
+        /* width: 100%;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px; */
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* border-radius: 10px; */
+        border-radius: 50%;
+        margin-left: 16rem;
+    }
+        .instructor__info>p {
+            font-size: 15px;
+            color: gray;
+            font-weight: 500;
+        }
+        .instructor__heading {
+            font-weight: 600;
+            margin-left: 5px;
+            color: rgb(81, 78, 78);
+            margin-top: 10px;
+            font-size: 30px;
+        }
+    
+        .instructor__heading:hover {
+            color: blueviolet;
+            cursor: pointer;
+        }
+
+        .instructor__card:hover {
+           transform:none;
+        }
+
+}

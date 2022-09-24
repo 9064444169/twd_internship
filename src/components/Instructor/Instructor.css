@@ -1,0 +1,35 @@
+.instructors{
+    display: flex;
+    flex-direction: column;
+    background-color:#f6f6ff ;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.instructor {
+    display: flex;
+    max-width: 1500px;
+}
+
+.instructor__row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+.instructor__head{
+    margin-left: 2rem;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:900px) {
+    .instructor__row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
